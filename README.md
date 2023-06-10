@@ -20,4 +20,4 @@ The features are extracted from the VGG16 model's 'avgpool' layer using PyTorch 
 The feature vectors obtained are then pickled for future use, e.g., plotting distributions of datapoints after applying PCA, or as inputs to another machine learning model. Although the PCA visualization code is not included in this repository, the pickled data can be easily loaded and used in any such application.
 
 ## Usage
-The code can be run as a script on the command line, and it expects the file names of the images to be stored in a pickle file. The images are assumed to be in .jpg format, and their directory path must be specified when initializing the pacp dataset. The DataLoader parameters can be adjusted based on the resources available.
+The code can be run as a script on the command line. The images are assumed to be in .jpg format, and their directory path must be specified when initializing the pacp dataset. The DataLoader parameters can be adjusted based on the resources available.
